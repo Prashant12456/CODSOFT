@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;/* viewport height (vh). The viewport height is the height of the user's 
+    browser window. Setting the height to 100vh ensures that the container takes up the full 
+    height of the viewport, creating a "full-screen" effect.*/
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.calculator{
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.calculator form input{
+    border: 2px solid purple;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 5px 5px 10px purple;
+}
+form .display
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    box-shadow: 4px 4px 10px purple;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px;
+}
